@@ -1,0 +1,1105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+ body{
+   background-color: rgb(106, 181, 247);
+ }
+
+#homepage{
+  
+   
+    background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/backgroundimage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+   
+
+}
+.nav{
+   height: 70px;
+   box-shadow: 2px 2px 2px 2px;
+   background-color: rgb(32, 44, 54);
+   color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo{
+   
+    margin-left: 10px;
+}
+.logo h2{
+   display: none;
+}
+.logo img{
+   display: none;
+}
+.menus ul{
+   display: flex;
+}
+.menus ul li{
+   margin: 20px;
+   list-style: none;
+}
+.menus ul li a{
+   text-decoration: none;
+   color: white;
+}
+video{
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: -2;
+}
+/* sidebar codes */
+.sidebar{
+   display: none;
+   
+}
+.sidebarmenus{
+   display: none;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: rgba(59, 64, 59, 0.95);
+    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+.sidebarmenus ul li{
+   margin: 30px;
+}
+.sidebarmenus ul li{
+   list-style: none;
+   background-color: white;
+   padding: 15px;
+   width: 150px;
+}
+.sidebarmenus ul li a{
+   text-decoration: none;
+   color: black;
+}
+.closeimage img{
+   height: 50px;
+   background-color: black;
+}
+
+
+/*  start of center section  */
+ .center{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+
+ }
+ .centerinfo{
+    box-shadow: 2px 2px 2px 2px;
+    height: 400px;
+    width: 600px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+ }
+ .centerinfo button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+     margin-bottom: 20px;
+ }
+ .centerinfo button:hover{
+    border: none;
+    background-color: crimson;
+    color: white;
+   
+ }
+ .socialmedia{
+    height: auto;
+    width: 400px;
+    background-color: rgb(106, 181, 247);
+ }
+ .socialmedia img{
+    height: 26px;
+    width: 26px;
+    margin: 10px;
+    background-color: white;
+ }
+
+ /*   end of homepage   */
+
+ /*  start of aboutpage  */
+ #aboutpage{
+
+    height: auto;
+    
+ }
+.head{
+  
+ text-align: center;
+    padding-top: 10px;
+    color: white;
+  
+}
+.aboutcenter{
+    background-image: url(images/aboutimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ height: auto;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ display: flex;
+
+}
+.aboutinfo{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.aboutinfoleft{
+    width: 400px;
+    height: auto;
+    font-size: 12px;
+    line-height: 30px;
+}
+.aboutinfoleft p{
+    padding: 10px;
+}
+.aboutinfoleft p span{
+   color: rgb(106, 181, 247);
+}
+.aboutinfoleft button{
+    padding: 8px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: white;
+}
+.aboutinfoleft button:hover{
+    outline: none;
+    border: none;
+    background-color: rgb(106, 181, 247);
+    color: white;
+ }
+.aboutinforight{
+    width: 300px;
+    height: 450px;
+    background-image: url(images/background4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* end of aboutpage  */
+
+/*  start of servicespage  */
+#servicespage{
+height: 100vh;
+margin-top: 7px;
+}
+.hed{
+   background-color: rgb(106, 181, 247);
+   color: white;
+   height: 60px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+}
+.services{
+   height: 90vh;
+   background-color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+.service1{
+   border: 2px solid red;
+   height: 450px;
+   width: 350px;
+   background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/kra.webp');
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .2em;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   color: white;
+}
+/* all servicecontent applies to all services1,2 and 3 sections */
+.servicecontent{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+.servicecontent p{
+   padding: 20px;
+}
+.servicecontent button{
+   padding: 8px;
+   background-color: crimson;
+   border: none;
+   color: white;
+}
+.servicecontent button:hover{
+  
+   background-color: rgb(106, 181, 247);
+   border: none;
+   color: white;
+}
+/*  end of all servicecontent applies to all services1,2 and 3 sections */
+
+
+.service2{
+   border: 2px solid red;
+   height: 450px;
+   width: 350px;
+   background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/ecitizen.png');
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+.service3{
+   border: 2px solid red;
+   height: 450px;
+   width: 350px;
+   background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/graphic-design\ pic.jpeg');
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    
+}
+
+/*   end of servicepage */
+
+.ourteam{
+   height: 100vh;
+
+}
+
+.ourteam h1,h2{
+   text-align: center;
+   color: white;
+}
+.team{
+   background-color: white;
+   height: 90vh;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.team1{
+  
+   border-top-left-radius: 1em;
+   border-top-right-radius: 1em;
+   height: auto;
+   width: 220px;
+   margin: 20px;
+}
+.team1 img{
+   border-top-left-radius: 1em;
+   border-top-right-radius: 1em;
+   height: 300px;
+   width: 220px;
+}
+.teamcontent{
+   height: 70px;
+   width: 220px;
+   background-color: crimson;
+   color: white;
+}
+.teamcontent h1{
+   font-size: 18px;
+}
+.teamcontent img{
+   height: 15px;
+   width: 15px;
+   margin-left: 10px;
+   margin-top: 5px;
+   background-color: white;
+}
+/* end of ourteam section */
+
+/* start of contactpage */
+
+ #contactpage{
+    height: 100vh;
+    background-color: rgb(106, 181, 247);
+ }
+ .heading{
+    
+    height: auto;
+    padding-top: 20px;
+    margin-left: 60px;
+    color: white;
+ }
+ .heading h2{
+    padding-bottom: 10px;
+ }
+ .contactcenter{
+    height: auto;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+ }
+ .contactinfo{
+  
+    margin-top: 20px;
+    height: 450px;
+   width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+ }
+ .contactinfoleft{
+  
+    background-color: white;
+    height: 420px;
+    width: 500px;
+ }
+form h2{
+    padding-top: 10px;
+}
+
+ .content input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+ }
+
+ .sms input{
+    outline: none;
+    border: 1px solid black;
+    padding: 70px;
+    margin-top: 20px;
+    width: 200px;
+ }
+ .btn input{
+    padding: 8px;
+    margin-top: 20px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background-color: crimson;
+    color: white;
+ }
+ .btn input:hover{
+    outline: none;
+    border: none;
+    background-color: rgb(106, 181, 247);
+    color: white;
+ }
+
+ .contactinforight{
+    
+    background-color: crimson;
+    color: white;
+    height: 420px;
+    width: 400px;
+ }
+ .information1{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 40px;
+    line-height: 30px;
+ }
+ .information2{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 40px;
+    line-height: 30px;
+ }
+
+ /* end of contactpage */
+
+ /*  start of footer section  */
+ footer{
+   background-color: rgb(29, 24, 34);
+   height: 50vh;
+   border-bottom: 1px solid white;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   color: rgb(106, 181, 247);
+ }
+footer .email{
+   
+   height: 250px;
+   width: 300px;
+   line-height: 50px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+ }
+ footer .email h1{
+   color: whitesmoke;
+ }
+
+footer .callus{
+  
+   height: 250px;
+   width: 300px;
+   line-height: 50px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+footer .callus h1{
+   color: whitesmoke;
+ }
+footer .findus{
+   
+   height: 250px;
+   width: 300px;
+   line-height: 50px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+footer .findus h1{
+   color: whitesmoke;
+ }
+
+footer .links{
+  
+   height: 250px;
+   width: 300px;
+   line-height: 50px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+footer .links h2{
+   color: white;
+}
+footer .links a{
+   color: rgb(106, 181, 247);
+   text-decoration: underline white;
+}
+video{
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: -1;
+}
+
+/*  end of footer section */
+.bottom{
+   background-color: rgb(29, 24, 34);
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top: 10px;
+   color: white;
+   line-height: 25px;
+
+}
+
+
+ /* media queries for tabs and phones */
+
+@media only screen and (max-width: 800px){
+   body{
+      background-color: rgb(106, 181, 247);
+    }   
+   
+   #homepage{
+     
+      
+       background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/backgroundimage.webp');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       height: auto;
+      
+   
+   }
+   .nav{
+      height: 70px;
+      box-shadow: 2px 2px 2px 2px;
+      background-color: rgb(32, 44, 54);
+      color: white;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+       align-items: center;
+   }
+   
+   
+   .logo img{
+      display: block;
+      height: 50px;
+   }
+   .logo h1{
+      display: none;
+   }
+   .logo h2{
+      display: flex;
+      margin-left: 55px;
+      position: absolute;
+      top: 1;
+   }
+   
+   .menus{
+      display: none;
+   }
+   .menus ul{
+      display: flex;
+   }
+   .menus ul li{
+      margin: 20px;
+      list-style: none;
+   }
+   .menus ul li a{
+      text-decoration: none;
+      color: white;
+   }
+.sidebar{
+   display: block;
+   margin-right: 20px;
+}
+.sidebar img{
+   height: 30px;
+   background-color: red;
+}
+  
+   
+   /*  start of center section  */
+    .center{
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       align-items: center;
+   
+    }
+    .centerinfo{
+       box-shadow: 2px 2px 2px 2px;
+       height: 500px;
+       width: 100%;
+       line-height: 30px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       align-items: center;
+       flex-direction: column;
+       color: white;
+    }
+    .centerinfo button{
+       padding: 10px;
+       background-color: transparent;
+       border: 1px solid white;
+       color: white;
+        margin-bottom: 20px;
+    }
+    .centerinfo button:hover{
+       border: none;
+       background-color: crimson;
+       color: white;
+      
+    }
+    .socialmedia{
+       height: auto;
+       width: 80%;
+       background-color: rgb(106, 181, 247);
+    }
+    .socialmedia img{
+       height: 26px;
+       width: 26px;
+       margin: 10px;
+       background-color: white;
+    }
+   
+    /*   end of homepage   */
+   
+    /*  start of aboutpage  */
+    #aboutpage{
+   
+       height: auto;
+       
+    }
+   .head{
+     
+    text-align: center;
+       padding-top: 10px;
+       color: white;
+     
+   }
+   .aboutcenter{
+       background-image: url(images/aboutimage.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+   
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+   
+   }
+   .aboutinfo{
+       background-color: white;
+       width: 100%;
+       height: auto;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .aboutinfoleft{
+       width: 100%;
+       height: auto;
+       font-size: 12px;
+       line-height: 30px;
+   }
+   .aboutinfoleft p{
+       padding: 10px;
+   }
+   .aboutinfoleft p span{
+      color: rgb(106, 181, 247);
+   }
+   .aboutinfoleft button{
+       padding: 8px;
+       width: 90px;
+       margin-bottom: 20px;
+       outline: none;
+       border: none;
+       background-color: crimson;
+       color: white;
+   }
+   .aboutinfoleft button:hover{
+       outline: none;
+       border: none;
+       background-color: rgb(106, 181, 247);
+       color: white;
+    }
+   .aboutinforight{
+       width: 100%;
+       height: 450px;
+       background-image: url(images/background4.png);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
+   
+   
+   /* end of aboutpage  */
+   
+   /*  start of servicespage  */
+   #servicespage{
+   height: auto;
+   margin-top: 7px;
+   }
+   .hed{
+      background-color: rgb(106, 181, 247);
+      color: white;
+      height: 60px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+   }
+   .services{
+      height: auto;
+      background-color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+   }
+   .service1{
+     
+      height: 450px;
+      margin: 20px;
+      width: 350px;
+      background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/kra.webp');
+      background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       border-radius: .2em;
+       justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      color: white;
+   }
+   /* all servicecontent applies to all services1,2 and 3 sections */
+   .servicecontent{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+   }
+   .servicecontent p{
+      padding: 20px;
+   }
+   .servicecontent button{
+      padding: 8px;
+      background-color: crimson;
+      border: none;
+      color: white;
+   }
+   .servicecontent button:hover{
+     
+      background-color: rgb(106, 181, 247);
+      border: none;
+      color: white;
+   }
+   /*  end of all servicecontent applies to all services1,2 and 3 sections */
+   
+   
+   .service2{
+      margin: 20px;
+      height: 450px;
+      width: 350px;
+      background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/ecitizen.png');
+      background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       border-radius: .2em;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       display: flex;
+       color: white;
+   }
+   .service3{
+      margin: 20px;
+      height: 450px;
+      width: 350px;
+      background: linear-gradient(rgba(255, 255, 255, 0.05),rgb(0, 0, 0)),url('images/graphic-design\ pic.jpeg');
+      background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       border-radius: .2em;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       display: flex;
+       color: white;
+       
+   }
+   
+   /*   end of servicepage */
+   .ourteam{
+      height: auto;
+   
+   }
+   
+   .ourteam h1,h2{
+      text-align: center;
+      color: white;
+   }
+   .team{
+      background-color: white;
+      height: auto;
+      justify-content: center;
+       align-items: center;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+   }
+   .team1{
+     
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      height: auto;
+      width: 100%;
+      margin: 20px;
+   }
+   .team1 img{
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      height: 300px;
+      width: 80%;
+   }
+   .teamcontent{
+      height: 70px;
+      width: 100%;
+      background-color: crimson;
+      color: white;
+   }
+   .teamcontent h1{
+      font-size: 18px;
+   }
+   .teamcontent img{
+      height: 15px;
+      width: 15px;
+      margin-left: 10px;
+      margin-top: 5px;
+      background-color: white;
+   }
+   /* end of ourteam section */
+   
+   /* start of contactpage */
+   
+    #contactpage{
+       height: auto;
+       background-color: rgb(106, 181, 247);
+    }
+    .heading{
+       
+       height: auto;
+       padding-top: 20px;
+       margin-left: 60px;
+       color: white;
+    }
+    .heading h2{
+       padding-bottom: 10px;
+    }
+    .contactcenter{
+       height: auto;
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       align-items: center;
+    }
+    .contactinfo{
+     
+       margin-top: 20px;
+       height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       align-items: center;
+    }
+    .contactinfoleft{
+     
+       background-color: white;
+       height: auto;
+       width: 100%;
+    }
+   form h2{
+       padding-top: 10px;
+   }
+   
+    .content input{
+       padding-top: 5px;
+       padding-bottom: 5px;
+       margin-top: 15px;
+       margin-left: 20px;
+       background-color: transparent;
+       border: none;
+       border-bottom: 1px solid black;
+       outline: none;
+    }
+   
+    .sms input{
+       outline: none;
+       border: 1px solid black;
+       padding: 70px;
+       margin-top: 20px;
+       width: 80%;
+    }
+    .btn input{
+       padding: 8px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       width: 90px;
+       outline: none;
+       border: none;
+       background-color: crimson;
+       color: white;
+    }
+    .btn input:hover{
+       outline: none;
+       border: none;
+       background-color: rgb(106, 181, 247);
+       color: white;
+    }
+   
+    .contactinforight{
+       
+       background-color: crimson;
+       color: white;
+       height: 420px;
+       width: 100%;
+    }
+    .information1{
+       text-align: left;
+       margin-left: 30px;
+       margin-top: 40px;
+       line-height: 30px;
+    }
+    .information2{
+       text-align: left;
+       margin-left: 30px;
+       margin-top: 40px;
+       line-height: 30px;
+    }
+   
+    /* end of contactpage */
+   
+    /*  start of footer section  */
+    footer{
+      background-color: rgb(29, 24, 34);
+      height: auto;
+      border-bottom: 1px solid white;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      color: rgb(106, 181, 247);
+    }
+   footer .email{
+      
+      height: auto;
+      width: 300px;
+      line-height: 50px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    footer .email h1{
+      color: whitesmoke;
+    }
+   
+   footer .callus{
+     
+      height: auto;
+      width: 300px;
+      line-height: 50px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+   }
+   footer .callus h1{
+      color: whitesmoke;
+    }
+   footer .findus{
+      
+      height: auto;
+      width: 300px;
+      line-height: 50px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+   }
+   footer .findus h1{
+      color: whitesmoke;
+    }
+   
+   footer .links{
+     
+      height: 280px;
+      width: 300px;
+      line-height: 50px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+   }
+   footer .links h2{
+      color: white;
+   }
+   footer .links a{
+      color: rgb(106, 181, 247);
+      text-decoration: underline white;
+   }
+   
+   /*  end of footer section */
+   .bottom{
+      background-color: rgb(29, 24, 34);
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 10px;
+      color: white;
+      line-height: 25px;
+   
+   }
+}
+
